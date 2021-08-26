@@ -1,0 +1,458 @@
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .nav-area li.nav-item {
+    margin-right: 1rem!important;
+}
+
+  .hero-right-wrappert img {
+    width: 100%;
+}
+section.hero-area {
+  padding: 100px 0 120px;
+}
+.recommend-info-wrap {
+  padding: 90px 0 70px;
+}
+.recommend-img {
+  padding-top: 99px;
+}
+.nav-area li.nav-item:last-child {
+  margin-left: 0px;
+}
+.nav-area a.nav-link.contact {
+  padding: 12px 20px !important;
+
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .nav-area li.nav-item {
+    margin-right: .3rem!important;
+    padding-top: 35px;
+}
+.nav-area a.nav-link.contact {
+  padding: 8px 10px !important;
+}
+.nav-area li.nav-item:last-child {
+  margin-left: 10px;
+}
+.nav-area a.navbar-brand img {
+  width: 170px;
+  height: auto;
+}
+.hero-left-info h2.title {
+  font-size: 37px;
+  line-height: 52px;
+}
+.hero-left-info p {
+  font-size: 17px;
+  line-height: 30px;
+
+}
+.form-wrap button {
+  font-size: 19px;
+  width: 100px;
+  height: 58px;
+}
+
+.form-wrap input {
+  width: 281px;
+  height: 58px;
+}
+
+.hero-right-wrappert img {
+  height: 300px;
+  width: 100%;
+}
+.hero-right-wrappert {
+  margin-left: -30px;
+}
+
+section.hero-area {
+  padding: 90px 0 110px;
+}
+.recommend-info-wrap {
+  padding: 100px 0 90px;
+}
+.recommend-info-wrap p {
+  font-size: 17px;
+
+}
+.recommend-info-wrap {
+  padding: 60px 0 40px;
+}
+.recommend-img {
+  padding-top: 147px;
+}
+.section-title p {
+  font-size: 18px;
+}
+.startup-items {
+  padding: 35px 10px;
+}
+.startup-items p {
+  font-size: 16px;
+}
+.startup-items h4 {
+  font-size: 20px;
+  line-height: 29px;
+}
+.about-us-area {
+  padding: 60px 0 100px;
+}
+.section-title h3 {
+  font-size: 35px;
+}
+.single-client-img {
+  width: 140px;
+}
+p.designer {
+  font-size: 13px;
+}
+p.or:before {
+  left: -312px;
+  width: 300px;
+
+}
+
+p.or:after {
+  width: 300px;
+  left: 42px;
+
+}
+#contact {
+  padding: 100px;
+}
+p.or {
+  margin-top: 35px;
+}
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .nav-area a.nav-link.contact {
+    padding: 13px 26px !important;
+    width: 114px;
+}
+.nav-area li.nav-item:last-child {
+  margin-left: 0px;
+}
+.nav-area li.nav-item {
+  margin-right: 1rem!important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.hero-left-info {
+  text-align: center;
+}
+    
+.hero-left-info h2.title {
+  font-size: 40px;
+  line-height: 55px;
+}
+.hero-left-wrapper {
+  text-align: center;
+}
+.hero-right-wrappert img {
+  width: 100%;
+}
+.hero-right-wrappert {
+  margin-left: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+section.hero-area {
+  padding: 100px 0 100px;
+  margin-top: 70px;
+}
+
+.recommend-info-wrap {
+  padding: 100px 0 0;
+  text-align: center;
+}
+.recommend-img {
+  padding-top: 0px;
+}
+.section-title h3 {
+  font-size: 38px;
+}
+.section-title p {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.startup-items {
+  padding: 35px 10px;
+  
+}
+.about-us-area {
+  padding: 60px 0 90px;
+}
+.single-client-img {
+  width: 105px;
+}
+div#contact {
+  padding: 100px 0;
+}
+.contact-input.cont-sm {
+  margin-bottom: 27px;
+}
+.conact-button button {
+  font-size: 16px;
+  width: 150px;
+  height: 46px;
+}
+p.or:before {
+  width: 225px;
+  left: -240px;
+}
+p.or:after {
+  width: 225px;
+}
+
+.footer-wrapper:after {
+  bottom: 76px;
+}
+.footer-bottom p.copywright {
+  text-align: center;
+}
+
+
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .nav-area a.nav-link.contact {
+    padding: 13px 26px !important;
+    width: 114px;
+}
+.nav-area li.nav-item:last-child {
+  margin-left: 0px;
+}
+.nav-area li.nav-item {
+  margin-right: 1rem!important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.hero-left-info {
+  text-align: center;
+}
+    
+.hero-left-info h2.title {
+  font-size: 35px;
+  line-height: 50px;
+}
+.hero-left-wrapper {
+  text-align: center;
+}
+.hero-left-info p {
+  font-size: 20px;
+}
+.hero-right-wrappert img {
+  width: 100%;
+}
+.hero-right-wrappert {
+  margin-left: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+section.hero-area {
+  padding: 100px 0 100px;
+  margin-top: 70px;
+}
+
+.recommend-info-wrap {
+  padding: 100px 0 0;
+  text-align: center;
+}
+.recommend-img {
+  padding-top: 0px;
+}
+.section-title h3 {
+  font-size: 38px;
+}
+.section-title p {
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.startup-items {
+  padding: 35px 10px;
+  
+}
+.about-us-area {
+  padding: 60px 0 90px;
+}
+.single-client-img {
+  width: 150px;
+}
+div#contact {
+  padding: 80px 0;
+}
+.contact-input.cont-sm {
+  margin-bottom: 27px;
+}
+.conact-button button {
+  font-size: 16px;
+  width: 150px;
+  height: 46px;
+}
+p.or:before {
+  width: 160px;
+  left: -175px;
+}
+p.or:after {
+  width: 160px;
+}
+
+.footer-wrapper:after {
+  bottom: 56px;
+}
+.footer-bottom p.copywright {
+  text-align: center;
+}
+.footer-logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+} 
+
+@media all and (min-width:481.98px) and (max-width: 574.98px) {
+  .form-wrap input {
+    margin-bottom: 20px;
+}
+.single-client-img {
+  width: 130px;
+}
+.section-title h3 {
+  font-size: 35px;
+}
+
+
+}
+  
+@media all and (min-width:321px) and (max-width: 480px) {
+  p.or:before {
+    width: 105px;
+    left: -120px;
+}
+p.or:after {
+  width: 105px;
+}
+
+.form-wrap input {
+  width: 280px;
+  margin-bottom: 20px;
+}
+.nav-area a.navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+section.hero-area {
+  padding: 60px 0 80px;
+  margin-top: 60px;
+}
+.hero-left-info h2.title {
+  font-size: 27px;
+  line-height: 40px;
+}
+.section-title h3 {
+  font-size: 25px;
+  line-height: 42px;
+}
+.section-title p {
+  font-size: 15px;
+  line-height: 25px;
+}
+.startup-area {
+  padding: 50px 0;
+}
+.startup-items {
+  height: 300px;
+}
+.startup-items p {
+  font-size: 16px;
+}
+.single-about {
+  padding: 16px;
+}
+.about-information p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.single-client-img {
+  width: 85px;
+}
+.footer-wrapper:after {
+  bottom: 76px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+
+}
+  
+@media all and (min-width:0px) and (max-width: 320px) {
+  p.or:before {
+    width: 100px;
+    left: -114px;
+}
+p.or:after {
+  width: 100px;
+}
+.hero-left-info h2.title {
+  font-size: 30px;
+  line-height: 42px;
+}
+.form-wrap input {
+  width: 274px;
+  margin-bottom: 20px;
+}
+.hero-right-wrappert img {
+  width: 100%;
+  height: 220px;
+}
+.recommend-info-wrap h3 {
+  font-size: 22px;
+}
+.recommend-info-wrap p {
+  font-size: 15px;
+}
+.section-title h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.section-title p {
+  font-size: 15px;
+  line-height: 25px;
+}
+.single-about {
+  padding: 20px;
+}
+.about-information p {
+  font-size: 14px;
+}
+.nav-area a.navbar-brand img {
+  width: 160px;
+  height: auto;
+}
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+
+
+}
